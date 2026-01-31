@@ -4,9 +4,11 @@ C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\bin\Debug\
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\bin\Debug\sConboyLab3.exe
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\bin\Debug\sConboyLab3.pdb
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.csproj.AssemblyReference.cache
-C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.Form1.resources
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.Properties.Resources.resources
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.csproj.GenerateResource.cache
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.csproj.CoreCompileInputs.cache
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.exe
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.pdb
+C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.IndexForm.resources
+C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.DatabaseForm.resources
+C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.DetailForm.resources
