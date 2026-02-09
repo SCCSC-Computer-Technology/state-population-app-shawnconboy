@@ -1,12 +1,129 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|c:\\users\\shawn\\documents\\state-population-app-shawnconboy\\sconboylab3\\databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|solutionrelative:databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|solutionrelative:databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\stateinformationdbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|solutionrelative:stateinformationdbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\indexform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|solutionrelative:indexform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\indexform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|solutionrelative:indexform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|solutionrelative:detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFC57B2-7229-43E0-86E0-257FC3910281}|sConboyLab3.csproj|solutionrelative:detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StateInformationDBDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\StateInformationDBDataSet.xsd",
+              "RelativeDocumentMoniker": "StateInformationDBDataSet.xsd",
+              "ToolTip": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\StateInformationDBDataSet.xsd",
+              "RelativeToolTip": "StateInformationDBDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-02-09T00:18:02.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DatabaseForm.cs",
+              "RelativeDocumentMoniker": "DatabaseForm.cs",
+              "ToolTip": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DatabaseForm.cs [Design]",
+              "RelativeToolTip": "DatabaseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T23:46:06.168Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DatabaseForm.cs",
+              "RelativeDocumentMoniker": "DatabaseForm.cs",
+              "ToolTip": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DatabaseForm.cs",
+              "RelativeToolTip": "DatabaseForm.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T16:34:03.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetailForm.cs",
+              "DocumentMoniker": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DetailForm.cs",
+              "RelativeDocumentMoniker": "DetailForm.cs",
+              "ToolTip": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DetailForm.cs",
+              "RelativeToolTip": "DetailForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T16:33:52.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetailForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DetailForm.cs",
+              "RelativeDocumentMoniker": "DetailForm.cs",
+              "ToolTip": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\DetailForm.cs [Design]",
+              "RelativeToolTip": "DetailForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T16:33:49.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IndexForm.cs",
+              "DocumentMoniker": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\IndexForm.cs",
+              "RelativeDocumentMoniker": "IndexForm.cs",
+              "ToolTip": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\IndexForm.cs",
+              "RelativeToolTip": "IndexForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T16:32:29.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndexForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\IndexForm.cs",
+              "RelativeDocumentMoniker": "IndexForm.cs",
+              "ToolTip": "C:\\Users\\shawn\\Documents\\state-population-app-shawnconboy\\sConboyLab3\\IndexForm.cs [Design]",
+              "RelativeToolTip": "IndexForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T16:26:19.61Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

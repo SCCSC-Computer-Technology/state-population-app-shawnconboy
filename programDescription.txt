@@ -25,7 +25,7 @@ and filter the data in all the columns for each state.
 Create a C# application that contains a database connection, 
 a class library, and a windows forms project. 
 
-Your program should be able to be run and navigated, 
+Your program should be able to be run and be navigated, 
 with clear instructions and proper error messages where applicable. 
 
 Also, make sure to have the correct exception errors in case of bad input by the users. 

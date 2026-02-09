@@ -95,72 +95,83 @@ SELECT Id, Name, Population, Flag_Description, Flower, Bird, Colors, Three_Large
               <Mapping SourceColumn="Median_Income" DataSetColumn="Median_Income" />
               <Mapping SourceColumn="Percent_Tech_Jobs" DataSetColumn="Percent_Tech_Jobs" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="StateInformationDBConnectionString (Settings)" DbObjectName="dbo.StateInformation" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="SortByNameAsc" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="SortByNameAsc" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="SortByNameAsc">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT   Id, Name, Population, Flag_Description, Flower, Bird, Colors, Three_Largest_Cities, Capitol, Median_Income, Percent_Tech_Jobs
+FROM      StateInformation
+ORDER BY Name</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
         </Tables>
         <Sources />
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="StateInformationDBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="StateInformationDBDataSet" msprop:Generator_DataSetName="StateInformationDBDataSet">
+  <xs:element name="StateInformationDBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="StateInformationDBDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="StateInformationDBDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="StateInformation" msprop:Generator_RowEvHandlerName="StateInformationRowChangeEventHandler" msprop:Generator_RowDeletedName="StateInformationRowDeleted" msprop:Generator_RowDeletingName="StateInformationRowDeleting" msprop:Generator_RowEvArgName="StateInformationRowChangeEvent" msprop:Generator_TablePropName="StateInformation" msprop:Generator_RowChangedName="StateInformationRowChanged" msprop:Generator_RowChangingName="StateInformationRowChanging" msprop:Generator_TableClassName="StateInformationDataTable" msprop:Generator_RowClassName="StateInformationRow" msprop:Generator_TableVarName="tableStateInformation" msprop:Generator_UserTableName="StateInformation">
+        <xs:element name="StateInformation" msprop:Generator_RowClassName="StateInformationRow" msprop:Generator_RowEvHandlerName="StateInformationRowChangeEventHandler" msprop:Generator_RowDeletedName="StateInformationRowDeleted" msprop:Generator_RowDeletingName="StateInformationRowDeleting" msprop:Generator_RowEvArgName="StateInformationRowChangeEvent" msprop:Generator_TablePropName="StateInformation" msprop:Generator_RowChangedName="StateInformationRowChanged" msprop:Generator_UserTableName="StateInformation" msprop:Generator_RowChangingName="StateInformationRowChanging" msprop:Generator_TableClassName="StateInformationDataTable" msprop:Generator_TableVarName="tableStateInformation">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:int" />
-              <xs:element name="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_UserColumnName="Name">
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Population" msprop:Generator_ColumnPropNameInRow="Population" msprop:Generator_ColumnPropNameInTable="PopulationColumn" msprop:Generator_ColumnVarNameInTable="columnPopulation" msprop:Generator_UserColumnName="Population" type="xs:int" />
-              <xs:element name="Flag_Description" msprop:Generator_ColumnPropNameInRow="Flag_Description" msprop:Generator_ColumnPropNameInTable="Flag_DescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnFlag_Description" msprop:Generator_UserColumnName="Flag_Description">
+              <xs:element name="Population" msprop:Generator_UserColumnName="Population" msprop:Generator_ColumnPropNameInTable="PopulationColumn" msprop:Generator_ColumnPropNameInRow="Population" msprop:Generator_ColumnVarNameInTable="columnPopulation" type="xs:int" />
+              <xs:element name="Flag_Description" msprop:Generator_UserColumnName="Flag_Description" msprop:Generator_ColumnPropNameInTable="Flag_DescriptionColumn" msprop:Generator_ColumnPropNameInRow="Flag_Description" msprop:Generator_ColumnVarNameInTable="columnFlag_Description">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="2147483647" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Flower" msprop:Generator_ColumnPropNameInRow="Flower" msprop:Generator_ColumnPropNameInTable="FlowerColumn" msprop:Generator_ColumnVarNameInTable="columnFlower" msprop:Generator_UserColumnName="Flower">
+              <xs:element name="Flower" msprop:Generator_UserColumnName="Flower" msprop:Generator_ColumnPropNameInTable="FlowerColumn" msprop:Generator_ColumnPropNameInRow="Flower" msprop:Generator_ColumnVarNameInTable="columnFlower">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Bird" msprop:Generator_ColumnPropNameInRow="Bird" msprop:Generator_ColumnPropNameInTable="BirdColumn" msprop:Generator_ColumnVarNameInTable="columnBird" msprop:Generator_UserColumnName="Bird">
+              <xs:element name="Bird" msprop:Generator_UserColumnName="Bird" msprop:Generator_ColumnPropNameInTable="BirdColumn" msprop:Generator_ColumnPropNameInRow="Bird" msprop:Generator_ColumnVarNameInTable="columnBird">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Colors" msprop:Generator_ColumnPropNameInRow="Colors" msprop:Generator_ColumnPropNameInTable="ColorsColumn" msprop:Generator_ColumnVarNameInTable="columnColors" msprop:Generator_UserColumnName="Colors">
+              <xs:element name="Colors" msprop:Generator_UserColumnName="Colors" msprop:Generator_ColumnPropNameInTable="ColorsColumn" msprop:Generator_ColumnPropNameInRow="Colors" msprop:Generator_ColumnVarNameInTable="columnColors">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Three_Largest_Cities" msprop:Generator_ColumnPropNameInRow="Three_Largest_Cities" msprop:Generator_ColumnPropNameInTable="Three_Largest_CitiesColumn" msprop:Generator_ColumnVarNameInTable="columnThree_Largest_Cities" msprop:Generator_UserColumnName="Three_Largest_Cities">
+              <xs:element name="Three_Largest_Cities" msprop:Generator_UserColumnName="Three_Largest_Cities" msprop:Generator_ColumnPropNameInTable="Three_Largest_CitiesColumn" msprop:Generator_ColumnPropNameInRow="Three_Largest_Cities" msprop:Generator_ColumnVarNameInTable="columnThree_Largest_Cities">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Capitol" msprop:Generator_ColumnPropNameInRow="Capitol" msprop:Generator_ColumnPropNameInTable="CapitolColumn" msprop:Generator_ColumnVarNameInTable="columnCapitol" msprop:Generator_UserColumnName="Capitol">
+              <xs:element name="Capitol" msprop:Generator_UserColumnName="Capitol" msprop:Generator_ColumnPropNameInTable="CapitolColumn" msprop:Generator_ColumnPropNameInRow="Capitol" msprop:Generator_ColumnVarNameInTable="columnCapitol">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Median_Income" msprop:Generator_ColumnPropNameInRow="Median_Income" msprop:Generator_ColumnPropNameInTable="Median_IncomeColumn" msprop:Generator_ColumnVarNameInTable="columnMedian_Income" msprop:Generator_UserColumnName="Median_Income" type="xs:int" />
-              <xs:element name="Percent_Tech_Jobs" msprop:Generator_ColumnPropNameInRow="Percent_Tech_Jobs" msprop:Generator_ColumnPropNameInTable="Percent_Tech_JobsColumn" msprop:Generator_ColumnVarNameInTable="columnPercent_Tech_Jobs" msprop:Generator_UserColumnName="Percent_Tech_Jobs" type="xs:double" />
+              <xs:element name="Median_Income" msprop:Generator_UserColumnName="Median_Income" msprop:Generator_ColumnPropNameInTable="Median_IncomeColumn" msprop:Generator_ColumnPropNameInRow="Median_Income" msprop:Generator_ColumnVarNameInTable="columnMedian_Income" type="xs:int" />
+              <xs:element name="Percent_Tech_Jobs" msprop:Generator_UserColumnName="Percent_Tech_Jobs" msprop:Generator_ColumnPropNameInTable="Percent_Tech_JobsColumn" msprop:Generator_ColumnPropNameInRow="Percent_Tech_Jobs" msprop:Generator_ColumnVarNameInTable="columnPercent_Tech_Jobs" type="xs:double" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
