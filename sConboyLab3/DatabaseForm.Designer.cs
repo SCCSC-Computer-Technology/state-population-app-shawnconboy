@@ -63,6 +63,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.sortByDropdown = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.searchDropdown = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.searchTextbox = new System.Windows.Forms.TextBox();
+            this.filterDropdown = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationBindingNavigator)).BeginInit();
@@ -327,6 +332,7 @@
             // 
             // sortByDropdown
             // 
+            this.sortByDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.sortByDropdown.FormattingEnabled = true;
             this.sortByDropdown.Items.AddRange(new object[] {
             "Name",
@@ -336,7 +342,7 @@
             "Capitol",
             "Median Income",
             "Tech Job Percentage"});
-            this.sortByDropdown.Location = new System.Drawing.Point(84, 151);
+            this.sortByDropdown.Location = new System.Drawing.Point(24, 125);
             this.sortByDropdown.Name = "sortByDropdown";
             this.sortByDropdown.Size = new System.Drawing.Size(121, 21);
             this.sortByDropdown.TabIndex = 4;
@@ -345,17 +351,82 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 124);
+            this.label2.Location = new System.Drawing.Point(21, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Sort By";
+            // 
+            // searchDropdown
+            // 
+            this.searchDropdown.FormattingEnabled = true;
+            this.searchDropdown.Items.AddRange(new object[] {
+            "All Fields",
+            "State Name",
+            "Capitol",
+            "Flower",
+            "Bird",
+            "Colors",
+            "Largest Cities"});
+            this.searchDropdown.Location = new System.Drawing.Point(198, 125);
+            this.searchDropdown.Name = "searchDropdown";
+            this.searchDropdown.Size = new System.Drawing.Size(121, 21);
+            this.searchDropdown.TabIndex = 6;
+            this.searchDropdown.SelectedIndexChanged += new System.EventHandler(this.searchDropdown_SelectedIndexChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(195, 98);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Search By";
+            // 
+            // searchTextbox
+            // 
+            this.searchTextbox.Location = new System.Drawing.Point(358, 122);
+            this.searchTextbox.Name = "searchTextbox";
+            this.searchTextbox.Size = new System.Drawing.Size(152, 22);
+            this.searchTextbox.TabIndex = 8;
+            this.searchTextbox.TextChanged += new System.EventHandler(this.searchTextbox_TextChanged);
+            // 
+            // filterDropdown
+            // 
+            this.filterDropdown.FormattingEnabled = true;
+            this.filterDropdown.Items.AddRange(new object[] {
+            "All Records",
+            "Highest Population",
+            "Lowest Population",
+            "Highest Median Income",
+            "Lowest Median Income",
+            "Highest Tech Job Percentage",
+            "Lowest Tech Job Percentage"});
+            this.filterDropdown.Location = new System.Drawing.Point(573, 125);
+            this.filterDropdown.Name = "filterDropdown";
+            this.filterDropdown.Size = new System.Drawing.Size(197, 21);
+            this.filterDropdown.TabIndex = 9;
+            this.filterDropdown.SelectedIndexChanged += new System.EventHandler(this.filterDropdown_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(570, 98);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Filter Options";
             // 
             // DatabaseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1250, 771);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.filterDropdown);
+            this.Controls.Add(this.searchTextbox);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.searchDropdown);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.sortByDropdown);
             this.Controls.Add(this.label1);
@@ -413,5 +484,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox sortByDropdown;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox searchDropdown;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox searchTextbox;
+        private System.Windows.Forms.ComboBox filterDropdown;
+        private System.Windows.Forms.Label label4;
     }
 }
