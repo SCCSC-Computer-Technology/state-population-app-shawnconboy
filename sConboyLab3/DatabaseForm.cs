@@ -37,13 +37,14 @@ namespace sConboyLab3
             this.stateInformationTableAdapter.Fill(this.stateInformationDBDataSet.StateInformation);
             sortByDropdown.SelectedIndex = 0;
             searchDropdown.SelectedIndex = 0;
-
+            filterDropdown.SelectedIndex = 0;
         }
 
     // sort dropdown menu
         // this method selects an option for sorting the database using Binding Source
         private void sortByDropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // dropdown selection
             String userSelection = sortByDropdown.SelectedItem.ToString();
 
             if (sortByDropdown.SelectedItem == null)
@@ -111,7 +112,7 @@ namespace sConboyLab3
                 return;
             }
 
-            // filtering what columns should be searched through
+            // specifying what columns should be searched through
             string selected = searchDropdown.SelectedItem.ToString();
             string filter = "";
             
@@ -154,45 +155,51 @@ namespace sConboyLab3
                 filter = "Flag_Description LIKE '%" + searchText + "%'";
             }
 
-            // assigns the filter method in the binding source to whichever if statement
-            // matched up
+            // assigns the searchfilter method in the binding source to whichever if statement that matches up
             stateInformationBindingSource.Filter = filter;
         }
 
+    // filtering dropdown
         private void filterDropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (filterDropdown.SelectedItem == null) return;
+            if (filterDropdown.SelectedItem == null)
+            {
+                return;
+            }
 
             string choice = filterDropdown.SelectedItem.ToString();
 
             if (choice == "All Records")
             {
                 stateInformationBindingSource.RemoveFilter();
-                stateInformationBindingSource.Sort = "";
             }
-            else if (choice == "Highest Population")
+            else if (choice == "Population > 10,000,000")
             {
-                stateInformationBindingSource.Sort = "Population DESC";
+                stateInformationBindingSource.Filter = "Population > 10000000";
+            }    
+            else if (choice == "Population > 1,000,000")
+            {
+                stateInformationBindingSource.Filter = "Population > 1000000";
             }
-            else if (choice == "Lowest Population")
+            else if (choice == "Population < 1,000,000")
             {
-                stateInformationBindingSource.Sort = "Population ASC";
+                stateInformationBindingSource.Filter = "Population < 1000000";
             }
-            else if (choice == "Highest Median Income")
+            else if (choice == "Tech Jobs > 5%")
             {
-                stateInformationBindingSource.Sort = "Median_Income DESC";
+                stateInformationBindingSource.Filter = "Percent_Tech_Jobs > 5";
             }
-            else if (choice == "Lowest Median Income")
+            else if (choice == "Tech Jobs > 10%")
             {
-                stateInformationBindingSource.Sort = "Median_Income ASC";
+                stateInformationBindingSource.Filter = "Percent_Tech_Jobs > 10";
             }
-            else if (choice == "Highest Tech Job Percentage")
+            else if (choice == "Median Income > 85,000")
             {
-                stateInformationBindingSource.Sort = "Percent_Tech_Jobs DESC";
+                stateInformationBindingSource.Filter = "Median_Income > 85000";
             }
-            else if (choice == "Lowest Tech Job Percentage")
+            else if (choice == "Median Income > 50,000")
             {
-                stateInformationBindingSource.Sort = "Percent_Tech_Jobs ASC";
+                stateInformationBindingSource.Filter = "Median_Income > 50000";
             }
         }
     }

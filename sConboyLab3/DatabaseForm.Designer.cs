@@ -62,17 +62,20 @@
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.sortByDropdown = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.searchDropdown = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.searchTextbox = new System.Windows.Forms.TextBox();
             this.filterDropdown = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationBindingNavigator)).BeginInit();
             this.stateInformationBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationDataGridView)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // closeButton
@@ -342,20 +345,11 @@
             "Capitol",
             "Median Income",
             "Tech Job Percentage"});
-            this.sortByDropdown.Location = new System.Drawing.Point(24, 125);
+            this.sortByDropdown.Location = new System.Drawing.Point(40, 40);
             this.sortByDropdown.Name = "sortByDropdown";
             this.sortByDropdown.Size = new System.Drawing.Size(121, 21);
             this.sortByDropdown.TabIndex = 4;
             this.sortByDropdown.SelectedIndexChanged += new System.EventHandler(this.sortByDropdown_SelectedIndexChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 98);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Sort By";
             // 
             // searchDropdown
             // 
@@ -368,24 +362,15 @@
             "Bird",
             "Colors",
             "Largest Cities"});
-            this.searchDropdown.Location = new System.Drawing.Point(198, 125);
+            this.searchDropdown.Location = new System.Drawing.Point(40, 67);
             this.searchDropdown.Name = "searchDropdown";
             this.searchDropdown.Size = new System.Drawing.Size(121, 21);
             this.searchDropdown.TabIndex = 6;
             this.searchDropdown.SelectedIndexChanged += new System.EventHandler(this.searchDropdown_SelectedIndexChanged);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(195, 98);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Search By";
-            // 
             // searchTextbox
             // 
-            this.searchTextbox.Location = new System.Drawing.Point(358, 122);
+            this.searchTextbox.Location = new System.Drawing.Point(24, 24);
             this.searchTextbox.Name = "searchTextbox";
             this.searchTextbox.Size = new System.Drawing.Size(152, 22);
             this.searchTextbox.TabIndex = 8;
@@ -396,44 +381,64 @@
             this.filterDropdown.FormattingEnabled = true;
             this.filterDropdown.Items.AddRange(new object[] {
             "All Records",
-            "Highest Population",
-            "Lowest Population",
-            "Highest Median Income",
-            "Lowest Median Income",
-            "Highest Tech Job Percentage",
-            "Lowest Tech Job Percentage"});
-            this.filterDropdown.Location = new System.Drawing.Point(573, 125);
+            "Population > 10,000,000",
+            "Population > 1,000,000",
+            "Population < 1,000,000",
+            "Tech Jobs > 5%",
+            "Tech Jobs > 10%",
+            "Median Income > 85,000",
+            "Median Income > 50,000"});
+            this.filterDropdown.Location = new System.Drawing.Point(14, 40);
             this.filterDropdown.Name = "filterDropdown";
-            this.filterDropdown.Size = new System.Drawing.Size(197, 21);
+            this.filterDropdown.Size = new System.Drawing.Size(173, 21);
             this.filterDropdown.TabIndex = 9;
             this.filterDropdown.SelectedIndexChanged += new System.EventHandler(this.filterDropdown_SelectedIndexChanged);
             // 
-            // label4
+            // groupBox1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(570, 98);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Filter Options";
+            this.groupBox1.Controls.Add(this.sortByDropdown);
+            this.groupBox1.Location = new System.Drawing.Point(261, 98);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Sort By";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.searchDropdown);
+            this.groupBox2.Controls.Add(this.searchTextbox);
+            this.groupBox2.Location = new System.Drawing.Point(525, 98);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 100);
+            this.groupBox2.TabIndex = 12;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Search By";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.filterDropdown);
+            this.groupBox3.Location = new System.Drawing.Point(789, 98);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 100);
+            this.groupBox3.TabIndex = 13;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Filter Options";
             // 
             // DatabaseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1250, 771);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.filterDropdown);
-            this.Controls.Add(this.searchTextbox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.searchDropdown);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.sortByDropdown);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.stateInformationDataGridView);
             this.Controls.Add(this.stateInformationBindingNavigator);
             this.Controls.Add(this.closeButton);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DatabaseForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DatabaseForm";
@@ -444,6 +449,10 @@
             this.stateInformationBindingNavigator.ResumeLayout(false);
             this.stateInformationBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationDataGridView)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -483,11 +492,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox sortByDropdown;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox searchDropdown;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox searchTextbox;
         private System.Windows.Forms.ComboBox filterDropdown;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }

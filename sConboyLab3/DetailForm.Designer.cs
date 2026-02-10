@@ -39,6 +39,7 @@
             System.Windows.Forms.Label capitolLabel;
             System.Windows.Forms.Label median_IncomeLabel;
             System.Windows.Forms.Label percent_Tech_JobsLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetailForm));
             this.stateInformationDBDataSet = new sConboyLab3.StateInformationDBDataSet();
             this.stateInformationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.stateInformationTableAdapter = new sConboyLab3.StateInformationDBDataSetTableAdapters.StateInformationTableAdapter();
@@ -316,6 +317,7 @@
             this.Controls.Add(median_IncomeLabel);
             this.Controls.Add(percent_Tech_JobsLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DetailForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetailForm";
