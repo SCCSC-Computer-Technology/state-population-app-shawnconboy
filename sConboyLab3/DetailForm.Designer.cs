@@ -320,7 +320,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DetailForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DetailForm";
+            this.Text = "State Details";
             this.Load += new System.EventHandler(this.DetailForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stateInformationBindingSource)).EndInit();

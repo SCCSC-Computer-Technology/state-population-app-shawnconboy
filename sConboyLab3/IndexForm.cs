@@ -56,6 +56,8 @@ namespace sConboyLab3
             // this sets the selected item from the listbox as "stateName" variable
             string stateName = stateListbox.GetItemText(stateListbox.SelectedItem);
 
+            // this creates the new detail form object and passes that selected 
+            // state name over when it opens
             DetailForm detailForm = new DetailForm(stateName);
             detailForm.ShowDialog();
         }

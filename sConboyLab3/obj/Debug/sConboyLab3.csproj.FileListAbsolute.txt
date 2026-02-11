@@ -12,3 +12,6 @@ C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.IndexForm.resources
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.DatabaseForm.resources
 C:\Users\shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyLab3.DetailForm.resources
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\sConboyLab3\bin\Debug\StateInformation.dll
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\sConboyLab3\bin\Debug\StateInformation.pdb
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\sConboyLab3\obj\Debug\sConboyL.1B445942.Up2Date

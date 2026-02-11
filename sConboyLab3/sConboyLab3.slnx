@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../StateInformation/StateInformation.csproj" Id="1e1f5e07-c5fa-44df-96e6-4cf07d807f8c" />
   <Project Path="sConboyLab3.csproj" Id="fcfc57b2-7229-43e0-86e0-257fc3910281" />
 </Solution>
