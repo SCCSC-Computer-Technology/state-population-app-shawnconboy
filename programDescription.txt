@@ -19,8 +19,15 @@ given some type of input medium.
 
 It must allow the user to select the state from a dropdown. 
 It must then show the state details on a separate page. 
-Furthermore, it must also be able to search, sort, update, 
-and filter the data in all the columns for each state. 
+
+Furthermore, it must also be able to 
+	
+	search 		complete
+	sort		complete
+	update	 	complete
+	filter 		complete
+	
+the data in all the columns for each state. 
 
 Create a C# application that contains a database connection, 
 a class library, and a windows forms project. 
