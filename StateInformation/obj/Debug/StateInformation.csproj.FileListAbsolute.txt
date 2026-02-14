@@ -1,0 +1,6 @@
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\StateInformation\bin\Debug\StateInformation.dll
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\StateInformation\bin\Debug\StateInformation.pdb
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\StateInformation\obj\Debug\StateInformation.csproj.AssemblyReference.cache
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\StateInformation\obj\Debug\StateInformation.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\StateInformation\obj\Debug\StateInformation.dll
+C:\Users\Shawn\Documents\state-population-app-shawnconboy\StateInformation\obj\Debug\StateInformation.pdb

@@ -1,0 +1,38 @@
+You have been tasked with building an application that will serve as a system for a company’s state database program. 
+
+Your data must store all the states of the United States. 
+
+It must store each state’s 
+	name 
+	population
+	state flag description
+	state flower
+	state bird
+	colors 
+	the three largest cities
+	capitol
+	median income
+	percentage of computer-related jobs offered 
+
+Your software application should be able to insert all the data into a database, 
+given some type of input medium. 
+
+It must allow the user to select the state from a dropdown. 
+It must then show the state details on a separate page. 
+
+Furthermore, it must also be able to 
+	
+	search 		complete
+	sort		complete
+	update	 	complete
+	filter 		complete
+	
+the data in all the columns for each state. 
+
+Create a C# application that contains a database connection, 
+a class library, and a windows forms project. 
+
+Your program should be able to be run and be navigated, 
+with clear instructions and proper error messages where applicable. 
+
+Also, make sure to have the correct exception errors in case of bad input by the users. 
