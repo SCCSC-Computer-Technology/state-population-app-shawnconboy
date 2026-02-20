@@ -27,6 +27,7 @@ namespace StateInformation
         public string Capitol { get; set; }
 
         public decimal Median_Income { get; set; }
+
         public decimal Percent_Tech_Jobs { get; set; }
     }
 }
