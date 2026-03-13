@@ -1,0 +1,30 @@
+Heinrich Gottberg Code Review of Shawn Conboy Lab 4
+
+Lab 4 was the addition of a Class Library 
+to the State Population App for Lab 3.
+
+This code review will be documenting three things,
+as the State Population app was already reviewed:
+
+1. Does the State Population App have a Class Library?
+
+   a. Yes, the project contains the class library!
+
+2. Is the Class Library utilized in the program correctly?
+
+   a. The way the project was originally created doesn't 
+      necessarily facilitate the need for the class library to be utilized.
+      The state database uses table adapter methods to efficiently
+      fill and retrieve the data for the forms.
+
+3. Does the Class Library have all the correct variables/data values?
+
+   a. Yes! All data values are present in the class library.
+
+Overall Evaluation:
+
+	If you recreated this project from scratch, I imagine the
+	class library would be implemented from the beginning.
+	Even still the program runs and displays the proper info.
+	
+	Good work.
