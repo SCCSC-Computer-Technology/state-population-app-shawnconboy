@@ -1,0 +1,17 @@
+Heinrich Gottberg Code Review of ShawnConboy Lab 3
+
+Is the code generally readable and well-documented?
+
+	Yes the code performs all the appropriate functions and is clean and efficient.
+
+Did you find any software defects?
+
+	No, the program ran as expected. The database imported all the data accurately.
+
+What was one way that their solution differed from yours?
+
+	Other than the overall UI being slightly different, not really. We both accomplished the assignments goals.
+
+Do you have any other constructive comments for the author?
+
+  Not really, Shawn is a great programmer. This assignment wasn't anything too crazy.
