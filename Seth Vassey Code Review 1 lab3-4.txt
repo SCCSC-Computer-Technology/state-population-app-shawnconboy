@@ -1,0 +1,4 @@
+Hey Shawn, I just got done reviewing your lab 3/4. I notice that everything works smoothly and the data seems to be all correct. 
+The layout is simple, clean and well organized. The only thing I would try to change in the future is adding more color to the app.
+It just feels a little bland being all white and gray. The state information page also looks a little default. Adding some bold text / making text bigger 
+would be a good change for this page. Other than that everything was smooth and working good. Good job man!
