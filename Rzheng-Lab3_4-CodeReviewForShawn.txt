@@ -1,0 +1,3 @@
+Hey Shawn,
+
+I just reviewed your state population lab. First off, everything seems to be working correctly and data is showing correctly. If I had to pick something for you to add, I would maybe change the color from the default white. Also, the front end is textboxes and labels that are not organized. Maybe you could center the labels and have the information display in a more digestible way. But overall, great job!
