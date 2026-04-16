@@ -1,0 +1,11 @@
+Q1 - Is the code generally readable and well-documented?
+A1 – Yes, the code is readable and pretty easy to follow. It is not super heavy on comments, but the structure makes sense so it was not hard to understand what everything was doing. The class for the state info was simple and clear with all the properties laid out. I think adding a little more commenting would help, but overall it looked good.
+
+Q2 – Did you find any software defects?
+A2- I did not really find any major software defects with this one. The program looks like it is working and displaying the data correctly from the database. Everything seemed to load and show the state information like it should. I did not see anything that would break the program from what I could tell.
+
+Q3 - What was one way that their solution differed from yours?
+A3 – Their solution differed from mine by using more of a database-driven approach with a dataset and table adapter instead of how I set mine up. They also had more built-in filtering and sorting options which I thought was a nice addition. Mine was a little more basic compared to that.
+
+Q4 – Do you have any other constructive comments for the author?
+A4 – I would just say maybe add a little more commenting and possibly clean up naming a little bit to keep everything consistent. Other than that, it looked organized and worked well. I did not really have any big issues with it.
