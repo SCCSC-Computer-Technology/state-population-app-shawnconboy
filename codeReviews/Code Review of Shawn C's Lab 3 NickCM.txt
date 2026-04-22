@@ -1,0 +1,35 @@
+**********Code Review of Shawn C's Lab 3**********
+*		by NickCM		         *
+* 					         *
+* Is the code generally readable and	         *
+* well-documented?			         *
+*					         *
+* Code is very clean and readable. Lots of       *
+* comments explaining everything which is good.  *
+* 					         *
+* 					         *
+* Did you find any software defects?	         *
+* 					         *
+* The id skips a few numbers so instead of       *
+* the last id being 50 it is 54. No real         *
+* consequence of this so it's a minor bug.       *
+* 					         *
+* 					         *
+* What was one way that their solution	         *
+* differed from yours?			         *
+* 					         *
+* My solution showed the whole database then     *
+* had a button to view a state's page.	         *
+* Shawn's solution shows a page to view a        *
+* state's details then a button to view the      *
+* whole database.			         *
+* 					         *
+* 					         *
+* Do you have any other constructive	         *
+* comments for the author?		         *
+* 					         *
+* None, code works perfectly and is very neat.   *
+* I like the icon on the forms.		         *
+* 					         *
+**************************************************
+
