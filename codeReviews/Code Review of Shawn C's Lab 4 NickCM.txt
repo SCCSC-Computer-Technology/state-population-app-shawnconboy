@@ -1,29 +1,29 @@
 **********Code Review of Shawn C's Lab 4**********
-*		by NickCM		         *
-* 					         *
-* Is the code generally readable and	         *
-* well-documented?			         *
-*					         *
+*               by NickCM                        *
+*                                                *
+* Is the code generally readable and             *
+* well-documented?                               *
+*                                                *
 * Code is the same as lab 3, the state class     *
-* in the library looks good. 			 *
-* 					         *
-* 					         *
-* Did you find any software defects?	         *
-* 					         *
-* No .      					 *
-* 					         *
-* 					         *
-* What was one way that their solution	         *
-* differed from yours?			         *
-* 					         *
+* in the library looks good.                     *
+*                                                *
+*                                                *
+* Did you find any software defects?             *
+*                                                *
+* No .                                           *
+*                                                *
+*                                                *
+* What was one way that their solution           *
+* differed from yours?                           *
+*                                                *
 * Shawn didn't really use the state class from   *
 * the library, instead he used the BindingSource *			         
-* controls.					 *
-* 					         *
-* Do you have any other constructive	         *
-* comments for the author?		         *
-* 					         *
-* None					         *
-* 					         *
+* controls.                                      *
+*                                                *
+* Do you have any other constructive             *
+* comments for the author?                       *
+*                                                *
+* None                                           *
+*                                                *
 **************************************************
 
